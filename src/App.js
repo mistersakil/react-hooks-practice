@@ -1,10 +1,5 @@
 import React from "react";
-import "./styles.css";
-
+import HooksCounter from "./Components/HooksCounter";
 export default function App() {
-  return (
-    <div className="App">
-      <h1>React Hooks Practice</h1>
-    </div>
-  );
+  return <HooksCounter />;
 }
