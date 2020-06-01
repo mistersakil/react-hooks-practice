@@ -1,5 +1,5 @@
 import React from "react";
-import HooksCounter from "./Components/HooksCounter";
+import HooksMouse from "./Components/HooksMouse";
 export default function App() {
-  return <HooksCounter />;
+  return <HooksMouse />;
 }
