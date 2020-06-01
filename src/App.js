@@ -1,5 +1,5 @@
 import React from "react";
-import HooksMouseContainer from "./Components/HooksMouseContainer";
+import TimerHooksCounter from "./Components/TimerHooksCounter";
 export default function App() {
-  return <HooksMouseContainer />;
+  return <TimerHooksCounter />;
 }
