@@ -1,5 +1,5 @@
 import React from "react";
-import HooksMouse from "./Components/HooksMouse";
+import HooksMouseContainer from "./Components/HooksMouseContainer";
 export default function App() {
-  return <HooksMouse />;
+  return <HooksMouseContainer />;
 }
