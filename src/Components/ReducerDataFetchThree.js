@@ -21,7 +21,7 @@ export default props => {
   useEffect(() => {
     async function loadData(){
       try{
-        let post = await fetch('https://jsonplaceholder.typicode.com3/posts/3').then(response => response.json())
+        let post = await fetch('https://jsonplaceholder.typicode.com/posts/3').then(response => response.json())
         dispatch({type: 'SUCCESS', payload: post})
       }catch(error){
         dispatch({type: 'FAILED'})        
