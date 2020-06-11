@@ -6,10 +6,10 @@ import ReducerHooksOne from './Components/ReducerHooksOne'
 export default function AppReducer() {
 	
   	return (
-  	    <Fragment>
+  	    <Fragment> 
   	    	{/*<ReducerDataFetchOne />*/}
   	    	{/*<ReducerDataFetchTwo />*/}
-  	    	{/*<ReducerDataFetchThree />*/}
+  	    	{/*<ReducerDataFetchThree />*/} 
   	    	<ReducerHooksOne />
   	    </Fragment>
   	); 
